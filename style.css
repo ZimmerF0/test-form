@@ -1,0 +1,130 @@
+body {
+  background-color: #ecedfe;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-bottom: 140px;
+}
+
+.login-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.login-form__logo {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 320px;
+}
+
+.login-form__logo-img {
+  width: 350px;
+  height: 310px;
+  text-align: center;
+}
+
+.login-form__logo-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-top: 80px;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+.login-form__input-group {
+  margin-bottom: 10px;
+}
+
+.login-form__label {
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.5;
+  /* color: #ccc; */
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.login-form__input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background: #f5f4f4;
+  outline: none;
+  border-bottom: 1px solid #beb7b7;
+  margin-bottom: 10px;
+}
+
+.login-form__submit-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  text-align: start;
+  background-color: #0a25eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.login-form__forgot-password {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+.password {
+  width: 320px;
+  margin: 5px auto;
+  position: relative;
+
+}
+
+#password-input {
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  height: 20px;
+  line-height: 40px;
+  text-indent: 10px;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  background: #f5f4f4;
+  outline: none;
+  border-bottom: 1px solid #beb7b7;
+}
+
+.password-control {
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+  background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
